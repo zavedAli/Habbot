@@ -6,21 +6,21 @@ const VideoDes = () => {
   const [activeTab, setActiveTab] = useState("buyer"); // Manage active section
 
   return (
-    <div className="bg-[#123557] text-white flex flex-col md:flex-row items-center justify-between py-20 px-8 md:p-16 w-[90%] m-auto">
+    <div className="bg-[#123557] text-white flex flex-col md:flex-row items-center justify-between py-20 px-8 md:p-16 w-[100%] sm:w-[90%] m-auto">
       {/* Video Section */}
-      <div className="flex-1 flex justify-center items-center my-10">
-        <div className="w-full md:w-5/5 lg:w-3/5 ">
+      <div className="flex-1 flex justify-center items-center my-10 w-full md:w-2/3 lg:w-1/2">
+        <div className="w-full">
           <ReactPlayer
-            url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" // Replace with actual video URL
+            url="https://www.youtube.com/watch?v=dQw4w9WgXcQ"
             controls
-            width="110%"
-            height="auto"
+            width="100%" // Ensure it's 100% of the container width
+            height="300px" // Set a fixed height for the video
           />
         </div>
       </div>
 
       {/* Tabs Section */}
-      <div className="flex-1 mt-8 md:mt-0 md:ml-10">
+      <div className="flex-1 mt-8 md:mt-0 md:ml-10 w-[30%]">
         {/* Tabs */}
         <div className="flex justify-center md:justify-start space-x-20  mb-6">
           <button

@@ -8,9 +8,9 @@ import Logo from "../../../public/assets/Footer/1.png";
 const Footer = () => {
   return (
     <footer className="bg-[#123557] text-gray-300 py-6 px-4  bottom-0 w-[100%] mt-5">
-      <div className="container mx-auto flex flex-wrap justify-around items-center">
+      <div className="container mx-auto flex flex-wrap justify-around items-center gap-5 ">
         <div className="line h-[1px] w-[85%] bg-slate-700 m-5"></div>
-        <div className="flex flex-wrap gap-10 space-x-4">
+        <div className="flex flex-row gap-10 space-x-4 sm:flex-col ">
           <div className="mb-4 md:mb-0 flex flex-col justify-center gap-4">
             <img src={Logo} alt="" className="" />
             <p className="text-sm">© R Singhania</p>
@@ -46,7 +46,7 @@ const Footer = () => {
             </a>
           </div>
         </div>
-        <div className="flex space-x-6">
+        <div className="flex space-x-6 mt-4">
           <a
             href="https://linkedin.com"
             className="hover:text-white border-[#ffffff1a] border-[0.5px] p-2 rounded-full "

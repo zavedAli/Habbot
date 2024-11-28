@@ -15,7 +15,7 @@ const Footer = () => {
             <img src={Logo} alt="" className="w-[30%] sm:w-[80%]" />
             <p className="text-sm">© R Singhania</p>
           </div>
-          <div className="innFooter flex gap-10 pe-4">
+          <div className="innFooter flex gap-5 justify-between sm:gap-10">
             <div className="subfooter flex flex-col">
               <h4 className="font-bold mb-2">Company</h4>
               <a href="/about" className="hover:underline font-normal">

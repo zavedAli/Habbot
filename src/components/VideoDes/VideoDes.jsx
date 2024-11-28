@@ -6,10 +6,10 @@ const VideoDes = () => {
   const [activeTab, setActiveTab] = useState("buyer"); // Manage active section
 
   return (
-    <div className="bg-[#123557] text-white flex flex-col md:flex-row items-center justify-between py-20 px-8 md:p-16 w-[100%] sm:w-[90%] m-auto">
+    <div className="bg-[#123557] text-white flex flex-col md:flex-row items-center justify-between py-8 sm:py-20 sm:px-8 w-[100%] sm:w-[90%] m-auto">
       {/* Video Section */}
-      <div className="flex-1 flex justify-center items-center my-6 ">
-        <div className=" flex justify-center items-center w-[75%] sm:w-[90%] ">
+      <div className=" flex justify-center items-center my-6 ">
+        <div className=" flex justify-center items-center w-[150%] sm:w-[90%] ">
           <ReactPlayer
             url="https://youtu.be/i8tgRHXx4oQ?si=DnxwbI_OkFsBbXUc"
             controls

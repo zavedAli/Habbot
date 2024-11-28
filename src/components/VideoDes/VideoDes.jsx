@@ -9,7 +9,7 @@ const VideoDes = () => {
     <div className="bg-[#123557] text-white flex flex-col md:flex-row items-center justify-between py-20 px-8 md:p-16 w-[90%] m-auto">
       {/* Video Section */}
       <div className="flex-1 flex justify-center items-center my-10">
-        <div className="w-full md:w-4/5 lg:w-3/5 ">
+        <div className="w-full md:w-5/5 lg:w-3/5 ">
           <ReactPlayer
             url="https://www.youtube.com/watch?v=dQw4w9WgXcQ" // Replace with actual video URL
             controls

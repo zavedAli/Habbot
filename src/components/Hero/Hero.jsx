@@ -14,10 +14,10 @@ const Hero = () => {
       {/* Custom alpha layer */}
       <div className="p-8 rounded-lg text-center text-white max-w-4xl w-[100%] z-20">
         {/* Header */}
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        <h1 className="text-3xl md:text-4xl font-semibold mb-4">
           Are You a Supplier?
         </h1>
-        <h1 className="text-3xl md:text-4xl font-bold mb-4">
+        <h1 className="text-3xl md:text-4xl font-light mb-4">
           Explore Matching Oppurtunity
         </h1>
 

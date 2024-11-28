@@ -14,7 +14,7 @@ function App() {
 
   return (
     <>
-      <div className="mian min-h-screen min-w-screen relative">
+      <div className="mian min-h-screen min-w-screen relative poppins">
         <Navbar />
         <Hero />
         <Des />

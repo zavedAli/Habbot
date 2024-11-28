@@ -13,7 +13,7 @@ const VideoDes = () => {
           <ReactPlayer
             url="https://youtu.be/i8tgRHXx4oQ?si=DnxwbI_OkFsBbXUc"
             controls
-            width="500px"
+            width="100%"
             height="300px"
           />
         </div>

@@ -18,31 +18,31 @@ const Footer = () => {
           <div className="innFooter flex gap-10">
             <div className="subfooter flex flex-col">
               <h4 className="font-bold mb-2">Company</h4>
-              <a href="/about" className="hover:underline">
+              <a href="/about" className="hover:underline font-normal">
                 About
               </a>
-              <a href="/faq" className="hover:underline">
+              <a href="/faq" className="hover:underline font-normal">
                 FAQ
               </a>
             </div>
             <div className="subfooter flex flex-col">
               <h4 className="font-bold  mb-2">Terms</h4>
-              <a href="/privacy" className="hover:underline">
+              <a href="/privacy" className="hover:underline font-normal">
                 Data Privacy
               </a>
-              <a href="/terms" className="hover:underline">
+              <a href="/terms" className="hover:underline font-normal">
                 Terms
               </a>
-              <a href="/accessibility" className="hover:underline">
+              <a href="/accessibility" className="hover:underline font-normal">
                 Accessibility
               </a>
             </div>
             <div className="subfooter flex flex-col">
               <h4 className="font-bold  mb-2">Related</h4>
-              <a href="/Buyer" className="hover:underline">
+              <a href="/Buyer" className="hover:underline font-normal">
                 Find Buyer
               </a>
-              <a href="/Feedback" className="hover:underline">
+              <a href="/Feedback" className="hover:underline font-normal">
                 Feedback
               </a>
             </div>

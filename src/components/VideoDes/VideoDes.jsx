@@ -25,7 +25,7 @@ const VideoDes = () => {
         <div className="flex justify-center md:justify-start space-x-20  mb-6  mx-2">
           <button
             onClick={() => setActiveTab("buyer")}
-            className={`text-xl font-semibold px-10 pb-2 ${
+            className={`text-xl font-semibold px-6 pb-2 ${
               activeTab === "buyer"
                 ? "text-[#EB7150] border-b-4 rounded-md border-[#EB7150]"
                 : "text-white"
@@ -35,7 +35,7 @@ const VideoDes = () => {
           </button>
           <button
             onClick={() => setActiveTab("supplier")}
-            className={`text-xl font-semibold px-10 pb-2 ${
+            className={`text-xl font-semibold px-6 pb-2 ${
               activeTab === "supplier"
                 ? "text-[#EB7150] border-b-4 rounded-md border-[#EB7150]"
                 : "text-white"

@@ -47,7 +47,7 @@ const VideoDes = () => {
 
         {/* Content Section */}
         {activeTab === "buyer" ? (
-          <ul className="space-y-4 text-lg mx-6 ps-2">
+          <ul className="space-y-4 text-lg mx-6 ps-2 min-h-[250px]">
             <li className="flex items-center gap-2">
               <span className="text-white  rounded-full p-1 text-[12px] bg-green-500">
                 <FaCheck />
@@ -68,7 +68,7 @@ const VideoDes = () => {
             </li>
           </ul>
         ) : (
-          <ul className="space-y-4 text-lg mx-6 ps-2">
+          <ul className="space-y-4 text-lg mx-6 ps-2 min-h-[250px]">
             <li className="flex items-center gap-2">
               <span className="text-white  rounded-full p-1 text-[12px] bg-green-500">
                 <FaCheck />

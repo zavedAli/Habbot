@@ -2,9 +2,9 @@ import React from "react";
 
 const SupplierCard = () => {
   return (
-    <div className="bg-[#E8FBFF] py-20 items-center mt-20 flex justify-around">
+    <div className="bg-[#E8FBFF] py-20 items-center mt-20 flex justify-around ">
       <div className="text-center ">
-        <h2 className="text-2xl font-bold text-black flex gap-2">
+        <h2 className=" text-sm sm:text-2xl font-bold text-black flex gap-2">
           Let Suppliers{" "}
           <span className="flex flex-col gap-1">
             Find You

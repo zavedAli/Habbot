@@ -22,7 +22,7 @@ const VideoDes = () => {
       {/* Tabs Section */}
       <div className="flex-1 mt-8 md:mt-0 md:ml-10">
         {/* Tabs */}
-        <div className="flex justify-center md:justify-start space-x-20  mb-6">
+        <div className="flex justify-center md:justify-start space-x-20  mb-6  mx-2">
           <button
             onClick={() => setActiveTab("buyer")}
             className={`text-xl font-semibold px-10 pb-2 ${

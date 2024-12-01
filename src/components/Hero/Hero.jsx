@@ -1,7 +1,7 @@
 import React from "react";
-import Bg from "../../../public/assets/Hero/Hero.png";
-import img1 from "../../../public/assets/Hero/input/1.png";
-import img2 from "../../../public/assets/Hero/input/2.png";
+import Bg from "../../assets/Hero/Hero.png";
+import img1 from "../../assets/Hero/input/1.png";
+import img2 from "../../assets/Hero/input/2.png";
 
 const Hero = () => {
   return (

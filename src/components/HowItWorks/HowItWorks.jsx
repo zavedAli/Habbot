@@ -1,10 +1,10 @@
 import React from "react";
-import img1 from "../../../public/assets/howItworks/1.png";
-import img2 from "../../../public/assets/howItworks/2.png";
-import img3 from "../../../public/assets/howItworks/3.png";
-import img4 from "../../../public/assets/howItworks/4.png";
-import img5 from "../../../public/assets/howItworks/5.png";
-import img6 from "../../../public/assets/howItworks/6.png";
+import img1 from "../../assets/howItworks/1.png";
+import img2 from "../../assets/howItworks/2.png";
+import img3 from "../../assets/howItworks/3.png";
+import img4 from "../../assets/howItworks/4.png";
+import img5 from "../../assets/howItworks/5.png";
+import img6 from "../../assets/howItworks/6.png";
 
 const HowItWorks = () => {
   return (
